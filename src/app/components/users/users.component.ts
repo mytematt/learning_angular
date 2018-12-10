@@ -30,7 +30,9 @@ export class UsersComponent implements OnInit {
             state: 'MA'
           },
           image: 'https://picsum.photos/600/600?image=1027',
-          isActive: true
+          isActive: true,
+          balance: 100,
+          registered: new Date('01/02/2018 08:30:00')
         },
         {
           firstName: 'Kevin',
@@ -42,7 +44,9 @@ export class UsersComponent implements OnInit {
             state: 'MA'
           },
           image: 'https://picsum.photos/600/600?image=1024',
-          isActive: false
+          isActive: false,
+          balance: 200,
+          registered: new Date('03/11/2018 06:30:00')
         },
         {
           firstName: 'Karen',
@@ -54,7 +58,9 @@ export class UsersComponent implements OnInit {
             state: 'FL'
           },
           image: 'https://picsum.photos/600/600?image=1011',
-          isActive: true
+          isActive: true,
+          balance: 50,
+          registered: new Date('12/02/2017 03:10:00')
         }
       ];
 
